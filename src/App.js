@@ -13,20 +13,16 @@ import Project from './Pages/Project';
 function App() {
     return (
         <Router>
-
             <div className="App">
-                <Navbar/>
+                <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />}/>
                     <Route path="/profile" element={<Profile />}/>
                     <Route path="/hobby" element={<Hobby />}/>
                     <Route path="/project" element={<Project />}/>
                 </Routes>
-
-
             </div>
         </Router>
 );
 }
-
 export default App;
