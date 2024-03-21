@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from "../components/HobbyGrid";
+import HobbyGrid from "../components/HobbyGrid";
 
 
 const Hobby = () => {
@@ -7,7 +7,7 @@ const Hobby = () => {
     return (
         <div className="Hobby text-center">
             <h1>Hobby</h1>
-            <Grid/>
+            <HobbyGrid />
         </div>
     );
 };

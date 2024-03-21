@@ -1,10 +1,14 @@
 import React from 'react';
+import ProfileGrid from "../components/ProfileGrid";
 
 
 const Profile = () => {
 
     return (
-        <h1>Profile</h1>
+        <div className="Profile text-center">
+            <h1>Profile</h1>
+            <ProfileGrid />
+        </div>
     );
 };
 

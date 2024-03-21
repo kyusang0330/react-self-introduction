@@ -1,25 +1,27 @@
 import React from 'react';
 
-const HobbyGrid = () => {
+
+const ProfileGrid = () => {
 
     return (
         <div className="container text-center">
             <div className="row g-2">
                 <div className="col-6">
-                    Football
+                    교육부장
                 </div>
                 <div className="col-6">
-                    Health
+                    학생회장
                 </div>
                 <div className="col-6">
-                    Play music
+                    사무부장
                 </div>
                 <div className="col-6">
-                    Coffee
+                    교육조교
                 </div>
             </div>
         </div>
     );
 };
 
-export default HobbyGrid;
+
+export default ProfileGrid;
