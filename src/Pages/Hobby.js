@@ -1,5 +1,5 @@
 import React from 'react';
-import HobbyGrid from "../components/HobbyGrid";
+import Grid from "../components/Grid";
 
 
 const Hobby = () => {
@@ -7,7 +7,10 @@ const Hobby = () => {
     return (
         <div className="Hobby text-center">
             <h1>Hobby</h1>
-            <HobbyGrid />
+            <Grid grid1="Fooball"/>
+            <Grid grid2="Health"/>
+            <Grid grid1="Coffee"/>
+            <Grid grid2="Paly Music"/>
         </div>
     );
 };
