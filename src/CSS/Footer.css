@@ -1,0 +1,16 @@
+
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.footer-logo {
+    width: 10%
+}
+
+.footer-info {
+    width: 100%;
+}
