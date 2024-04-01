@@ -9,9 +9,8 @@ const Home = () => {
             <div className="Home-info">
                 <img src="/images/test.jpg" className="img" alt="test"/>
                 <div className="Home-hi">
-                    <p>
-                        안녕하세요. ------ 이규상입니다!
-                    </p>
+                    <p>안녕하세요. ------ 이규상입니다!</p>
+                    <p>안녕하세요. ------ 이규상입니다!</p>
                 </div>
             </div>
 
