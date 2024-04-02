@@ -1,15 +1,15 @@
 import React from 'react';
-
+import "../CSS/Grid.css"
 
 const Grid = (props) => {
 
     return (
-        <div className="container text-center">
+        <div className="container">
             <div className="row g-2">
-                <div className="col-6">
+                <div className="first col-6">
                     {props.grid1}
                 </div>
-                <div className="col-6">
+                <div className="second col-6">
                     {props.grid2}
                 </div>
             </div>
