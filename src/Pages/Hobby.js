@@ -5,12 +5,10 @@ import Grid from "../components/Grid";
 const Hobby = () => {
 
     return (
-        <div className="Hobby text-center">
+        <div className="Hobby ">
             <h1>Hobby</h1>
-            <Grid grid1="Fooball"/>
-            <Grid grid2="Health"/>
-            <Grid grid1="Coffee"/>
-            <Grid grid2="Paly Music"/>
+            <Grid grid1="Fooball" grid2="Health"/>
+            <Grid grid1="Coffee" grid2="Paly Music"/>
         </div>
     );
 };
