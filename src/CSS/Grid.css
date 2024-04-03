@@ -1,4 +1,17 @@
 
 .container {
+
     text-align: center;
+
+    width: 500px;
+    height: 100px;
+
+}
+
+.container .first {
+    border: black 1px solid;
+}
+
+.container .second {
+    border: black 1px solid;
 }

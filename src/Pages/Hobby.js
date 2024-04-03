@@ -8,7 +8,7 @@ const Hobby = () => {
         <div className="Hobby ">
             <h1>Hobby</h1>
             <Grid grid1="Fooball" grid2="Health"/>
-            <Grid grid1="Coffee" grid2="Paly Music"/>
+            <Grid grid1="Coffee" grid2="Play Music"/>
         </div>
     );
 };
