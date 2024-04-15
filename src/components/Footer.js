@@ -12,9 +12,9 @@ const Footer = () => {
                 {Kyu}
             </div>
             <div className="footer-info">
-                <em>Front-End-Developer : Lee Kyu Sang</em>
+                <p>Front-End-Developer : Lee Kyu Sang</p>
                 <p>Phone : 010-4578-1305</p>
-                <em>E-Mail : cholongs123@naver.com</em>
+                <p>E-Mail : cholongs123@naver.com</p>
             </div>
         </div>
     );
