@@ -10,7 +10,7 @@ function Profile() {
         {title: '2020 대전대학교 전자.정보통신공학과 학생회 교육부장'},
         {title: '2021 대전대학교 정보통신.전자공학과 학생회 학생회장'}
     ];
-    {/*위에 왜 출력안되는지 다시한번 찾아보기*/}
+
     return (
         <div className="Profile">
             <h1>Profile Keyword</h1>
