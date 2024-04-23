@@ -7,13 +7,12 @@ const Home = () => {
         <div className="Home">
             <h1>Home</h1>
             <div className="Home-info">
-                <img src="/images/test.jpg" className="img" alt="test"/>
+                <img src="/images/Main.jpg" className="img" alt="증명사진"/>
                 <div className="Home-hi">
                     <p>안녕하세요. ------ 이규상입니다!</p>
                     <p>안녕하세요. ------ 이규상입니다!</p>
                 </div>
             </div>
-
         </div>
     );
 };
