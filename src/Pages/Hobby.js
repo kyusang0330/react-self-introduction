@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import Grid from "../components/Grid";
 import styled from "styled-components";
-import { useRecoilState } from "recoil";
-import { textState } from "../store";
 
 const Hobby = () => {
-  const [test, setTest] = useRecoilState(textState);
-  const hobbyList = ["Fooball", "Health", "Coffee", "Play Music"];
+  const hobbyList = ["Football", "Health", "Coffee", "Play Music"];
 
   const HobbyListComponent = () => {
     return (
@@ -20,7 +17,6 @@ const Hobby = () => {
 
   return (
     <HobbyContainer>
-      <h2>{test}</h2>
       <HobbyListComponent />
     </HobbyContainer>
   );
