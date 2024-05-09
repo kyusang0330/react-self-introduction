@@ -1,5 +1,5 @@
 import Grid from "../components/Grid";
-import "../CSS/Profile.css";
+import styled from "styled-components";
 
 function Profile() {
   const ProfileContent = [
@@ -12,19 +12,41 @@ function Profile() {
   ];
 
   const renderProfile = ProfileContent.map((profile) => {
-    return <div className="ProfileContent">{profile.title}</div>;
+    return (
+      <ContentText className="ProfileContent">{profile.title}</ContentText>
+    );
   });
 
   return (
-    <div className="Profile">
+    <ProfileContainer>
       <Grid grid1="학생회장" grid2="교육조교" />
       <Grid grid1="교육부장" grid2="사무부장" />
-      <div className="MainProfile">
-        <img src="/images/Main.jpg" className="mainImg" alt="증명사진" />
-        <div>{renderProfile}</div>
-      </div>
-    </div>
+      <MainProfile>
+        <ProfileMainImg src="/images/Main.jpg" alt="증명사진" />
+        <MainProfileText>{renderProfile}</MainProfileText>
+      </MainProfile>
+    </ProfileContainer>
   );
 }
 
 export default Profile;
+
+const ProfileContainer = styled.div`
+  text-align: center;
+`;
+
+const MainProfile = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+const ProfileMainImg = styled.img`
+  width: 300px;
+  padding: 0 10px 10px 10px;
+`;
+
+const MainProfileText = styled.div``;
+
+const ContentText = styled.div`
+  text-align: start;
+`;
