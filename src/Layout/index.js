@@ -6,7 +6,7 @@ import Hobby from "../Pages/Hobby";
 import Project from "../Pages/Project";
 import Footer from "../components/Footer";
 import { useEffect, useState } from "react";
-import styled from "styled-components";
+import { LayoutContainer } from "./styled";
 
 const Layout = () => {
   const [title, setTitle] = useState("Home");
@@ -46,7 +46,3 @@ const Layout = () => {
   );
 };
 export default Layout;
-
-const LayoutContainer = styled.div`
-  color: red;
-`;
