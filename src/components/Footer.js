@@ -1,23 +1,24 @@
-import React, {useState} from 'react'
-import '../CSS/Footer.css'
+import React from "react";
+import {
+  FooterContainer,
+  FooterEmail,
+  FooterInfo,
+  FooterLogo,
+  FooterMyName,
+  FooterNumber,
+} from "../styles/footer_styled";
 
 const Footer = () => {
-
-    const [Kyu, setKyu] = useState('Kyu')
-
-    return (
-
-        <div className="footer">
-            <div className="footer-logo">
-                {Kyu}
-            </div>
-            <div className="footer-info">
-                <p>Front-End-Developer : Lee Kyu Sang</p>
-                <p>Phone : 010-4578-1305</p>
-                <p>E-Mail : cholongs123@naver.com</p>
-            </div>
-        </div>
-    );
+  return (
+    <FooterContainer>
+      <FooterLogo>"Kyu"</FooterLogo>
+      <FooterInfo>
+        <FooterMyName>Front-End-Developer : Lee Kyu Sang</FooterMyName>
+        <FooterNumber>Phone : 010-4578-1305</FooterNumber>
+        <FooterEmail>E-Mail : cholongs123@naver.com</FooterEmail>
+      </FooterInfo>
+    </FooterContainer>
+  );
 };
 
 export default Footer;
