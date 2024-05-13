@@ -1,6 +1,5 @@
 import React from "react";
 import "../CSS/Grid.css";
-
 const Grid = (props) => {
   return (
     <div className="container">
