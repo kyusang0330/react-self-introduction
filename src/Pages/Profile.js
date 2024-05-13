@@ -19,12 +19,12 @@ function Profile() {
 
   return (
     <ProfileContainer>
-      <Grid grid1="학생회장" grid2="교육조교" />
-      <Grid grid1="교육부장" grid2="사무부장" />
       <MainProfile>
         <ProfileMainImg src="/images/Main.jpg" alt="증명사진" />
-        <MainProfileText>{renderProfile}</MainProfileText>
       </MainProfile>
+      <MainProfileText>{renderProfile}</MainProfileText>
+      <Grid grid1="학생회장" grid2="교육조교" />
+      <Grid grid1="교육부장" grid2="사무부장" />
     </ProfileContainer>
   );
 }
