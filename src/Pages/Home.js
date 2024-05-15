@@ -1,5 +1,11 @@
 import React from "react";
-import styled from "styled-components";
+import {
+  HomeContainer,
+  HomeInfo,
+  MainImg,
+  HomeHi,
+  HomeHiFirst,
+} from "../styles/home_styled";
 
 const Home = () => {
   return (
@@ -15,24 +21,3 @@ const Home = () => {
 };
 
 export default Home;
-
-const HomeContainer = styled.div``;
-
-const HomeInfo = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-
-const MainImg = styled.img`
-  width: 450px;
-  padding-left: 30px;
-  padding-right: 15px;
-`;
-
-const HomeHi = styled.div`
-  align-items: center;
-`;
-
-const HomeHiFirst = styled.p`
-  font-size: 20px;
-`;
