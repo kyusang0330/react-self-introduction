@@ -2,27 +2,34 @@ import styled from "styled-components";
 
 const HobbyContainer = styled.div`
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
 `;
 
 const HobbyListContainer = styled.div`
-  display: flex;
+  display: block;
   flex-direction: row;
   gap: 15px;
 `;
 
-const HobbyListItem = styled.div``;
-
-const HobbyListTitle = styled.div`
-  box-sizing: border-box;
-  display: inline-block;
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
+const HobbyListItem = styled.div`
+  display: flex;
   border: 1px solid blue;
+  box-sizing: border-box;
+  border-radius: 10px;
   text-align: center;
   align-items: center;
-  line-height: 250px;
+`;
+
+const HobbyListImg = styled.img`
+  width: 40%;
+  height: 250px;
+`;
+
+const HobbyListContent = styled.div`
+  width: 100%;
+`;
+
+const HobbyListTitle = styled.div`
   color: black;
 `;
 
@@ -34,4 +41,6 @@ export {
   HobbyListItem,
   HobbyListTitle,
   HobbyListDesc,
+  HobbyListImg,
+  HobbyListContent,
 };
