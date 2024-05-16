@@ -11,7 +11,9 @@ const HobbyListContainer = styled.div`
   gap: 15px;
 `;
 
-const HobbyListItem = styled.div`
+const HobbyListItem = styled.div``;
+
+const HobbyListTitle = styled.div`
   box-sizing: border-box;
   display: inline-block;
   width: 250px;
@@ -24,4 +26,12 @@ const HobbyListItem = styled.div`
   color: black;
 `;
 
-export { HobbyContainer, HobbyListContainer, HobbyListItem };
+const HobbyListDesc = styled.div``;
+
+export {
+  HobbyContainer,
+  HobbyListContainer,
+  HobbyListItem,
+  HobbyListTitle,
+  HobbyListDesc,
+};
