@@ -3,8 +3,9 @@ import {
   ProfileContainer,
   MainProfile,
   ProfileMainImg,
-  MainProfileText,
+  ProfileMainText,
   ContentText,
+  ProfileIntro,
 } from "../styles/profile_styled";
 
 function Profile() {
@@ -18,17 +19,16 @@ function Profile() {
   ];
 
   const renderProfile = ProfileContent.map((profile) => {
-    return (
-      <ContentText className="ProfileContent">{profile.title}</ContentText>
-    );
+    return <ContentText>{profile.title}</ContentText>;
   });
 
   return (
     <ProfileContainer>
       <MainProfile>
         <ProfileMainImg src="/images/Main.jpg" alt="증명사진" />
+        <ProfileIntro>안녕하세요 ! ------ 이규상입니다.</ProfileIntro>
       </MainProfile>
-      <MainProfileText>{renderProfile}</MainProfileText>
+      <ProfileMainText>{renderProfile}</ProfileMainText>
       <Grid grid1="학생회장" grid2="교육조교" />
       <Grid grid1="교육부장" grid2="사무부장" />
     </ProfileContainer>
