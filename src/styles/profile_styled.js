@@ -14,7 +14,9 @@ const ProfileMainImg = styled.img`
   padding: 0 10px 10px 10px;
 `;
 
-const MainProfileText = styled.div``;
+const ProfileIntro = styled.p``;
+
+const ProfileMainText = styled.div``;
 
 const ContentText = styled.div`
   text-align: start;
@@ -24,6 +26,7 @@ export {
   ProfileContainer,
   MainProfile,
   ProfileMainImg,
-  MainProfileText,
+  ProfileMainText,
   ContentText,
+  ProfileIntro,
 };

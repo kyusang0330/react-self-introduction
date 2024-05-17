@@ -8,7 +8,6 @@ const HobbyContainer = styled.div`
 const HobbyListContainer = styled.div`
   display: block;
   flex-direction: row;
-  gap: 15px;
 `;
 
 const HobbyListItem = styled.div`
@@ -18,6 +17,7 @@ const HobbyListItem = styled.div`
   border-radius: 10px;
   text-align: center;
   align-items: center;
+  gap: 15px;
 `;
 
 const HobbyListImg = styled.img`
@@ -31,6 +31,7 @@ const HobbyListContent = styled.div`
 
 const HobbyListTitle = styled.div`
   color: black;
+  text-align: start;
 `;
 
 const HobbyListDesc = styled.div``;
