@@ -16,9 +16,9 @@ const ProfileMainImg = styled.img`
 
 const ProfileIntro = styled.p``;
 
-const ProfileMainText = styled.div``;
+const ProfileListContainer = styled.div``;
 
-const ContentText = styled.div`
+const ProfileListItem = styled.div`
   text-align: start;
 `;
 
@@ -26,7 +26,7 @@ export {
   ProfileContainer,
   MainProfile,
   ProfileMainImg,
-  ProfileMainText,
-  ContentText,
   ProfileIntro,
+  ProfileListContainer,
+  ProfileListItem,
 };
