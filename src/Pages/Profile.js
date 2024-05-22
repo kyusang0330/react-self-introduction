@@ -6,32 +6,41 @@ import {
   ProfileIntro,
   ProfileListContainer,
   ProfileListItem,
+  ProfileListTitle,
+  ProfileListDesc,
+  ProfileListYear,
 } from "../styles/profile_styled";
 
 function Profile() {
   const ProfileContent = [
     {
-      title: "2017 대전대학교 전자.정보통신공학과 입학.",
+      year: "2017",
+      title: "대전대학교 전자.정보통신공학과 입학.",
       desc: "desc",
     },
     {
-      title: "2019 육군병장만기전역.",
+      year: "2019",
+      title: "육군병장만기전역.",
       desc: "desc",
     },
     {
-      title: "2020 대전대학교 전자.정보통신공학과 학생회 교육부장.",
+      year: "2020",
+      title: "대전대학교 전자.정보통신공학과 학생회 교육부장.",
       desc: "desc",
     },
     {
-      title: "2021 대전대학교 정보통신.전자공학과 학생회 학생회장.",
+      year: "2021",
+      title: "대전대학교 정보통신.전자공학과 학생회 학생회장.",
       desc: "desc",
     },
     {
-      title: "2022 대전대학교 공과대학 사무부장.",
+      year: "2022",
+      title: "대전대학교 공과대학 사무부장.",
       desc: "desc",
     },
     {
-      title: "2023 대전대학교 정보통신공학과 교육조교.",
+      year: "2023",
+      title: "대전대학교 정보통신공학과 교육조교.",
       desc: "desc",
     },
   ];
@@ -41,7 +50,11 @@ function Profile() {
     return (
       <ProfileListContainer>
         {ProfileContent.map((profile) => (
-          <ProfileListItem>{profile.title}</ProfileListItem>
+          <ProfileListItem>
+            <ProfileListYear>{profile.year}</ProfileListYear>
+            <ProfileListTitle>{profile.title}</ProfileListTitle>
+            <ProfileListDesc>{profile.desc}</ProfileListDesc>
+          </ProfileListItem>
         ))}
       </ProfileListContainer>
     );
