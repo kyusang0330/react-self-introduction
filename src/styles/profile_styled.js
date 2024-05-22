@@ -16,11 +16,22 @@ const ProfileMainImg = styled.img`
 
 const ProfileIntro = styled.p``;
 
-const ProfileListContainer = styled.div``;
+const ProfileListContainer = styled.div`
+  display: flex;
+`;
 
 const ProfileListItem = styled.div`
   text-align: start;
+  margin-left: 10px;
 `;
+
+const ProfileListYear = styled.div``;
+
+const ProfileListTitle = styled.div`
+  font-size: 13px;
+`;
+
+const ProfileListDesc = styled.div``;
 
 export {
   ProfileContainer,
@@ -29,4 +40,7 @@ export {
   ProfileIntro,
   ProfileListContainer,
   ProfileListItem,
+  ProfileListTitle,
+  ProfileListDesc,
+  ProfileListYear,
 };
