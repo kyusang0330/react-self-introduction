@@ -15,31 +15,37 @@ function Profile() {
   const ProfileContent = [
     {
       year: "2017",
+      img: "",
       title: "대전대학교 전자.정보통신공학과 입학.",
       desc: "desc",
     },
     {
       year: "2019",
+      img: "",
       title: "육군병장만기전역.",
       desc: "desc",
     },
     {
       year: "2020",
+      img: "",
       title: "대전대학교 전자.정보통신공학과 학생회 교육부장.",
       desc: "desc",
     },
     {
       year: "2021",
+      img: "",
       title: "대전대학교 정보통신.전자공학과 학생회 학생회장.",
       desc: "desc",
     },
     {
       year: "2022",
+      img: "",
       title: "대전대학교 공과대학 사무부장.",
       desc: "desc",
     },
     {
       year: "2023",
+      img: "",
       title: "대전대학교 정보통신공학과 교육조교.",
       desc: "desc",
     },
