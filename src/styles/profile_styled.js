@@ -18,6 +18,7 @@ const ProfileIntro = styled.p``;
 
 const ProfileListContainer = styled.div`
   display: flex;
+  justify-content: center;
 `;
 
 const ProfileListItem = styled.div`
