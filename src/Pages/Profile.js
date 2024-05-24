@@ -52,7 +52,6 @@ function Profile() {
   ];
 
   const RenderProfile = () => {
-    // ProfileContent.map((profile) => {
     return (
       <ProfileListContainer>
         {ProfileContent.map((profile) => (
