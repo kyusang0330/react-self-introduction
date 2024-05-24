@@ -10,7 +10,8 @@ const MainProfile = styled.div`
 `;
 
 const ProfileMainImg = styled.img`
-  width: 300px;
+  width: 410px;
+  height: 540px;
   padding: 0 10px 10px 10px;
 `;
 
@@ -19,6 +20,8 @@ const ProfileIntro = styled.p``;
 const ProfileListContainer = styled.div`
   display: flex;
   justify-content: center;
+  height: 400px;
+  border: 1px solid black;
 `;
 
 const ProfileListItem = styled.div`
@@ -26,13 +29,21 @@ const ProfileListItem = styled.div`
   margin-left: 10px;
 `;
 
-const ProfileListYear = styled.div``;
+const ProfileListYear = styled.div`
+  display: flex;
+  height: 150px;
+  align-items: end;
+`;
 
 const ProfileListTitle = styled.div`
+  width: 230px;
+  height: 50px;
   font-size: 13px;
 `;
 
-const ProfileListDesc = styled.div``;
+const ProfileListDesc = styled.div`
+  height: 250px;
+`;
 
 export {
   ProfileContainer,

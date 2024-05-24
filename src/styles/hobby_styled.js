@@ -12,7 +12,7 @@ const HobbyListContainer = styled.div`
 
 const HobbyListItem = styled.div`
   display: flex;
-  border: 1px solid blue;
+  border: 1px solid black;
   box-sizing: border-box;
   border-radius: 10px;
   text-align: center;
