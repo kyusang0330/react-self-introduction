@@ -20,7 +20,7 @@ const ProfileIntro = styled.p``;
 const ProfileListContainer = styled.div`
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 500px;
   border: 1px solid black;
 `;
 
@@ -42,7 +42,8 @@ const ProfileListTitle = styled.div`
 `;
 
 const ProfileListDesc = styled.div`
-  height: 250px;
+  height: 350px;
+  font-size: 13px;
 `;
 
 export {
