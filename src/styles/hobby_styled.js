@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const HobbyContainer = styled.div`
-  margin: 0 auto;
+  margin: 0 0 0 15px;
   width: 80%;
 `;
 
@@ -23,6 +23,8 @@ const HobbyListItem = styled.div`
 const HobbyListImg = styled.img`
   width: 40%;
   height: 250px;
+  border-radius: 10px;
+  border-right: 1px solid black;
 `;
 
 const HobbyListContent = styled.div`
