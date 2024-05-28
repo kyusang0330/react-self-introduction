@@ -17,6 +17,7 @@ const ProfileMainImg = styled.img`
 
 const ProfileIntro = styled.p``;
 
+//Render Profile
 const ProfileListContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -31,19 +32,22 @@ const ProfileListItem = styled.div`
 
 const ProfileListYear = styled.div`
   display: flex;
-  height: 150px;
+  height: 100px;
   align-items: end;
+  border: 1px solid red;
 `;
 
 const ProfileListTitle = styled.div`
-  width: 230px;
+  width: 250px;
   height: 50px;
   font-size: 13px;
+  border: 1px solid blue;
 `;
 
 const ProfileListDesc = styled.div`
   height: 350px;
   font-size: 13px;
+  border: 1px solid blueviolet;
 `;
 
 export {
