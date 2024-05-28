@@ -6,6 +6,7 @@ import {
   HomeHi,
   HomeHiFirst,
 } from "../styles/home_styled";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
