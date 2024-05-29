@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-const HomeContainer = styled.div``;
+const HomeContainer = styled.div`
+  border: 2px solid blue;
+  background-color: black;
+`;
 
 const HomeInfo = styled.div`
   display: flex;
