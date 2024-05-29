@@ -6,7 +6,7 @@ import Hobby from "../Pages/Hobby";
 import Project from "../Pages/Project";
 import Footer from "../components/Footer";
 import { useEffect, useState } from "react";
-import { LayoutContainer } from "./styled";
+import { LayoutContainer, Box } from "./styled";
 
 const Layout = () => {
   const [title, setTitle] = useState("Home");
@@ -31,8 +31,11 @@ const Layout = () => {
     }
   }, [pathname]);
 
+  useEffect(() => {}, []);
+
   return (
     <LayoutContainer>
+      <Box animate={{ borderRadius: "50%" }} />
       <Navbar />
       <h1>{title}</h1>
       <Routes>
