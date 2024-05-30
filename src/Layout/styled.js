@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { motion } from "framer-motion";
 
 const LayoutContainer = styled.div`
   color: white;
@@ -7,12 +6,7 @@ const LayoutContainer = styled.div`
   background-color: black;
 `;
 
-const Box = styled(motion.div)`
-  width: 200px;
-  height: 200px;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 25px;
-  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2);
-`;
+export { LayoutContainer };
 
-export { LayoutContainer, Box };
+//Box component를 따로 만들어 볼까
+//useEffect 사용해서 꼭 홈화면에서만 뜨게 하기 if문 사용
