@@ -12,7 +12,7 @@ const HobbyListContainer = styled.div`
 
 const HobbyListItem = styled.div`
   display: flex;
-  border: 1px solid black;
+  border: 1px solid white;
   box-sizing: border-box;
   border-radius: 10px;
   text-align: center;
@@ -24,7 +24,7 @@ const HobbyListImg = styled.img`
   width: 40%;
   height: 250px;
   border-radius: 10px;
-  border-right: 1px solid black;
+  border-right: 1px solid white;
 `;
 
 const HobbyListContent = styled.div`

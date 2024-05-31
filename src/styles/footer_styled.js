@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-const FooterMyName = styled.p`
-  color: blue;
-`;
+const FooterMyName = styled.p``;
 
 const FooterNumber = styled.p`
   font-size: 10px;
