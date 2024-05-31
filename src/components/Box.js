@@ -13,7 +13,9 @@ const Box = () => {
           stiffness: 260,
           damping: 20,
         }}
-      />
+      >
+        <TestText>welcome!</TestText>
+      </TestBox>
     </BoxContainer>
   );
 };
@@ -30,9 +32,17 @@ const BoxContainer = styled.div`
 `;
 
 const TestBox = styled(motion.div)`
+  display: grid;
   width: 200px;
   height: 200px;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 25px;
   box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2);
 `;
+
+const TestText = styled(motion.p)`
+  place-self: center;
+  color: blue;
+`;
+
+//motion.p랑 motion.img도 쓸 수 있는지 실험할 것
