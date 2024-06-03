@@ -44,5 +44,3 @@ const TestText = styled(motion.p)`
   place-self: center;
   color: blue;
 `;
-
-//motion.p랑 motion.img도 쓸 수 있는지 실험할 것
