@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const HomeContainer = styled.div`
-  border: 2px solid blue;
-  background-color: black;
+  border: 1px solid blue;
 `;
 
 const HomeInfo = styled.div`

@@ -1,13 +1,5 @@
 import styled from "styled-components";
 
-const FooterMyName = styled.p``;
-
-const FooterNumber = styled.p`
-  font-size: 10px;
-`;
-
-const FooterEmail = styled.p``;
-
 const FooterContainer = styled.div`
   background-color: black;
   color: white;
@@ -30,6 +22,14 @@ const FooterInfo = styled.div`
   width: 80vw;
   font-size: 13px;
 `;
+
+const FooterMyName = styled.p``;
+
+const FooterNumber = styled.p`
+  font-size: 10px;
+`;
+
+const FooterEmail = styled.p``;
 
 export {
   FooterLogo,

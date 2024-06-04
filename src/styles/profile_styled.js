@@ -22,13 +22,13 @@ const ProfileIntro = styled.p``;
 const ProfileListContainer = styled.div`
   display: flex;
   justify-content: center;
+  width: 99vw;
   height: 500px;
   border: 1px solid black;
 `;
 
 const ProfileListItem = styled.div`
   text-align: start;
-  margin-left: 10px;
 `;
 
 const ProfileListYear = styled.div`
