@@ -6,10 +6,11 @@ import {
   HomeHi,
   HomeHiFirst,
 } from "../styles/home_styled";
-
+import Box from "../components/Box";
 const Home = () => {
   return (
     <HomeContainer>
+      <Box />
       <HomeInfo>
         <MainImg src="/images/Main.jpg" alt="증명사진" />
         <HomeHi>
