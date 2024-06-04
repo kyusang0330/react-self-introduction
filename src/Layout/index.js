@@ -7,7 +7,6 @@ import Project from "../Pages/Project";
 import Footer from "../components/Footer";
 import { useEffect, useState } from "react";
 import { LayoutContainer } from "./styled";
-import Box from "../components/Box";
 
 const Layout = () => {
   const [title, setTitle] = useState("Home");
@@ -35,7 +34,6 @@ const Layout = () => {
   useEffect(() => {}, []);
   return (
     <LayoutContainer>
-      <Box />
       <Navbar />
       <h1>{title}</h1>
       <Routes>
