@@ -1,28 +1,43 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 const Box = () => {
+  const [showAnimation, setShowAnimation] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowAnimation(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  });
   return (
     <BoxContainer>
-      <TestBox
-        initial={{ scale: 0 }}
-        animate={{ scale: 1, rotateZ: 360 }}
-        transditon={{
-          duration: 1,
-          type: "spring",
-          stiffness: 260,
-          damping: 20,
-        }}
-      >
-        <TestText>welcome!</TestText>
-      </TestBox>
+      {showAnimation && (
+        <BoxMain>
+          <TestBox
+            initial={{ scale: 0 }}
+            animate={{ scale: 1, rotateZ: 360 }}
+            transditon={{
+              duration: 1,
+              type: "spring",
+              stiffness: 260,
+              damping: 20,
+            }}
+          >
+            <TestText>welcome!</TestText>
+          </TestBox>
+        </BoxMain>
+      )}
     </BoxContainer>
   );
 };
 
 export default Box;
 
-const BoxContainer = styled.div`
+const BoxContainer = styled.div``;
+
+const BoxMain = styled.div`
   display: flex;
   height: 100vh;
   width: 100vw;
