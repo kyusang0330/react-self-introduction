@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ProfileContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   text-align: center;
 `;
 
@@ -22,7 +22,7 @@ const ProfileIntro = styled.p``;
 const ProfileListContainer = styled.div`
   display: flex;
   justify-content: center;
-  width: 99vw;
+  width: 100%;
   height: 500px;
   border: 1px solid black;
 `;

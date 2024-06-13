@@ -7,7 +7,7 @@ const FooterContainer = styled.div`
   align-items: center;
   text-align: center;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -19,7 +19,7 @@ const FooterLogo = styled.div`
 `;
 
 const FooterInfo = styled.div`
-  width: 80vw;
+  width: 80%;
   font-size: 13px;
 `;
 
