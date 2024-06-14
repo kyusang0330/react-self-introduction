@@ -38,6 +38,11 @@ const ProfileListYear = styled.div`
   border: 1px solid red;
 `;
 
+const ProfileListImg = styled.img`
+  width: 230px;
+  height: 290px;
+`;
+
 const ProfileListTitle = styled.div`
   width: 250px;
   height: 50px;
@@ -61,4 +66,5 @@ export {
   ProfileListTitle,
   ProfileListDesc,
   ProfileListYear,
+  ProfileListImg,
 };
