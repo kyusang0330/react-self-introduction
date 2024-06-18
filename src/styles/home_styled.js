@@ -23,7 +23,7 @@ const HomeHi = styled.div`
 `;
 
 const HomeHiFirst = styled.p`
-  font-size: 20px;
+  font-size: 25px;
 `;
 
 export { HomeContainer, HomeInfo, MainImg, HomeHi, HomeHiFirst };
