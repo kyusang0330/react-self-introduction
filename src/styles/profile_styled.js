@@ -18,12 +18,12 @@ const ProfileMainImg = styled.img`
 
 const ProfileIntro = styled.p``;
 
-//Render Profile
+//RenderProfile
 const ProfileListContainer = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 500px;
+  height: 800px;
   border: 1px solid black;
 `;
 
