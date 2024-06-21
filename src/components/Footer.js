@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterLogo>"Kyu"</FooterLogo>
+      <FooterLogo>Kyu</FooterLogo>
       <FooterInfo>
         <FooterMyName>Front-End-Developer : Lee Kyu Sang</FooterMyName>
         <FooterNumber>Phone : 010-4578-1305</FooterNumber>
