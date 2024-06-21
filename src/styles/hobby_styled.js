@@ -5,10 +5,7 @@ const HobbyContainer = styled.div`
   width: 80%;
 `;
 
-const HobbyListContainer = styled.div`
-  display: block;
-  flex-direction: row;
-`;
+const HobbyListContainer = styled.div``;
 
 const HobbyListItem = styled.div`
   display: flex;
@@ -17,14 +14,14 @@ const HobbyListItem = styled.div`
   border-radius: 10px;
   text-align: center;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 `;
 
 const HobbyListImg = styled.img`
   width: 40%;
   height: 250px;
   border-radius: 10px;
-  border-right: 1px solid white;
+  border-right: 2px solid white;
 `;
 
 const HobbyListContent = styled.div`
@@ -32,11 +29,13 @@ const HobbyListContent = styled.div`
 `;
 
 const HobbyListTitle = styled.div`
-  color: black;
+  border: 1px solid red;
   text-align: start;
 `;
 
-const HobbyListDesc = styled.div``;
+const HobbyListDesc = styled.div`
+  border: 1px solid blue;
+`;
 
 export {
   HobbyContainer,
