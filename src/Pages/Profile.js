@@ -3,7 +3,8 @@ import {
   ProfileContainer,
   MainProfile,
   ProfileMainImg,
-  ProfileIntro,
+  ProfileIntro1,
+  ProfileIntro2,
   ProfileListContainer,
   ProfileListItem,
   ProfileListTitle,
@@ -86,7 +87,17 @@ function Profile() {
     <ProfileContainer>
       <MainProfile>
         <ProfileMainImg src="/images/Main.jpg" alt="증명사진" />
-        <ProfileIntro>안녕하세요 ! ------ 이규상입니다.</ProfileIntro>
+        <ProfileIntro1>
+          안녕하세요. 프론트엔드 개발자 이규상입니다.
+          <br /> 신입으로 경력은 없지만 HTML5, CSS3, Java Script, React 등의
+          기술 스택을 보유하고 있습니다.
+          <br /> 전공은 정보통신.전자공학과로 대학에서 전공 지식을 쌓았습니다.
+          <br />
+          2021학년도 3학년 때, HTML과 CSS를 처음 접하여서 공부하기 시작하였고,
+          자연스럽게 Java Script를 공부하였습니다.
+          <br /> 그 후, React를 접하여 현재 포트폴리오를 만들고 있습니다.
+        </ProfileIntro1>
+        <ProfileIntro2></ProfileIntro2>
       </MainProfile>
       <RenderProfile />
       <Grid grid1="학생회장" grid2="교육조교" />
