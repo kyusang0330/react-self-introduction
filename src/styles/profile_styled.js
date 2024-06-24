@@ -8,6 +8,7 @@ const ProfileContainer = styled.div`
 const MainProfile = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
 `;
 
 const ProfileMainImg = styled.img`
@@ -16,7 +17,9 @@ const ProfileMainImg = styled.img`
   padding: 0 10px 10px 10px;
 `;
 
-const ProfileIntro = styled.p``;
+const ProfileIntro1 = styled.p``;
+
+const ProfileIntro2 = styled.div``;
 
 //RenderProfile
 const ProfileListContainer = styled.div`
@@ -60,7 +63,8 @@ export {
   ProfileContainer,
   MainProfile,
   ProfileMainImg,
-  ProfileIntro,
+  ProfileIntro1,
+  ProfileIntro2,
   ProfileListContainer,
   ProfileListItem,
   ProfileListTitle,
