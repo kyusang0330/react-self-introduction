@@ -12,7 +12,7 @@ const Home = () => {
       <HomeInfo>
         <MainImg src="/images/Main.jpg" alt="증명사진" />
         <HomeHi>
-          <HomeHiFirst>Front-End Devloper Lee Kyu Sang</HomeHiFirst>
+          <HomeHiFirst>Front-End Developer Lee Kyu Sang</HomeHiFirst>
         </HomeHi>
       </HomeInfo>
     </HomeContainer>
