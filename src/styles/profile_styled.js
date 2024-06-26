@@ -21,6 +21,8 @@ const ProfileIntro1 = styled.p``;
 
 const ProfileIntro2 = styled.div``;
 
+//BasicProfile
+
 //RenderProfile
 const ProfileListContainer = styled.div`
   display: flex;

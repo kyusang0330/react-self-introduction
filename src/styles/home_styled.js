@@ -7,6 +7,7 @@ const HomeContainer = styled.div`
 const HomeInfo = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   border: 1px solid red;
   height: 600px;
 `;
@@ -18,12 +19,8 @@ const MainImg = styled.img`
   padding-right: 15px;
 `;
 
-const HomeHi = styled.div`
-  align-items: center;
-`;
+const HomeIntro = styled.div``;
 
-const HomeHiFirst = styled.p`
-  font-size: 25px;
-`;
+const HomeIntroText = styled.p``;
 
-export { HomeContainer, HomeInfo, MainImg, HomeHi, HomeHiFirst };
+export { HomeContainer, HomeInfo, MainImg, HomeIntro, HomeIntroText };
