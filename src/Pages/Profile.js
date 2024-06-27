@@ -3,9 +3,11 @@ import {
   ProfileContainer,
   MainProfile,
   ProfileMainImg,
-  ProfileIntro1,
-  ProfileIntro2,
+  BasicProfileContainer,
   ProfileListContainer,
+  BasicProfileItem,
+  BasicProfileQuestion,
+  BasicProfileAnswer,
   ProfileListItem,
   ProfileListTitle,
   ProfileListDesc,
@@ -16,12 +18,37 @@ import {
 function Profile() {
   const BasicProfileContent = [
     {
-      question: "",
-      answer: "",
+      question: "이름",
+      answer: "이규상",
+    },
+    {
+      question: "출생",
+      answer: "1998년 3월 30일",
+    },
+    {
+      question: "본관",
+      answer: "전주 이씨",
+    },
+    {
+      question: "학력",
+      answer:
+        "덕벌초등학교 \n" +
+        "주성중학교 \n" +
+        "봉명고등학교 \n" +
+        "대전대학교 정보통신.전자공학과",
     },
   ];
   const BasicProfile = () => {
-    return <div></div>;
+    return (
+      <BasicProfileContainer>
+        {BasicProfileContent.map((mainprofile) => (
+          <BasicProfileItem>
+            <BasicProfileQuestion>{mainprofile.question}</BasicProfileQuestion>
+            <BasicProfileAnswer>{mainprofile.answer}</BasicProfileAnswer>
+          </BasicProfileItem>
+        ))}
+      </BasicProfileContainer>
+    );
   };
 
   const ProfileContent = [
@@ -81,12 +108,12 @@ function Profile() {
   const RenderProfile = () => {
     return (
       <ProfileListContainer>
-        {ProfileContent.map((profile) => (
+        {ProfileContent.map((profilelist) => (
           <ProfileListItem>
-            <ProfileListYear>{profile.year}</ProfileListYear>
-            <ProfileListImg src={profile.img} alt={profile.year} />
-            <ProfileListTitle>{profile.title}</ProfileListTitle>
-            <ProfileListDesc>{profile.desc}</ProfileListDesc>
+            <ProfileListYear>{profilelist.year}</ProfileListYear>
+            <ProfileListImg src={profilelist.img} alt={profilelist.year} />
+            <ProfileListTitle>{profilelist.title}</ProfileListTitle>
+            <ProfileListDesc>{profilelist.desc}</ProfileListDesc>
           </ProfileListItem>
         ))}
       </ProfileListContainer>
@@ -97,8 +124,7 @@ function Profile() {
     <ProfileContainer>
       <MainProfile>
         <ProfileMainImg src="/images/Main.jpg" alt="증명사진" />
-        <ProfileIntro1></ProfileIntro1>
-        <ProfileIntro2></ProfileIntro2>
+        <BasicProfile />
       </MainProfile>
       <RenderProfile />
       <Grid grid1="학생회장" grid2="교육조교" />
