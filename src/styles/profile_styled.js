@@ -17,11 +17,18 @@ const ProfileMainImg = styled.img`
   padding: 0 10px 10px 10px;
 `;
 
-const ProfileIntro1 = styled.p``;
-
-const ProfileIntro2 = styled.div``;
-
 //BasicProfile
+
+const BasicProfileContainer = styled.div``;
+
+const BasicProfileItem = styled.div`
+  display: flex;
+  justify-content: center;2584
+`;
+
+const BasicProfileQuestion = styled.div``;
+
+const BasicProfileAnswer = styled.div``;
 
 //RenderProfile
 const ProfileListContainer = styled.div`
@@ -65,8 +72,10 @@ export {
   ProfileContainer,
   MainProfile,
   ProfileMainImg,
-  ProfileIntro1,
-  ProfileIntro2,
+  BasicProfileContainer,
+  BasicProfileItem,
+  BasicProfileQuestion,
+  BasicProfileAnswer,
   ProfileListContainer,
   ProfileListItem,
   ProfileListTitle,
