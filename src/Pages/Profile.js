@@ -33,9 +33,17 @@ function Profile() {
       question: "학력",
       answer:
         "덕벌초등학교 \n" +
-        "주성중학교 \n" +
+        "주성중학교 \n " +
         "봉명고등학교 \n" +
         "대전대학교 정보통신.전자공학과",
+    },
+    {
+      question: "MBTI",
+      answer: "ESTP",
+    },
+    {
+      question: "병역",
+      answer: "30사단 포병여단 311포병대대 \n 1포대 조종수 만기 전역",
     },
   ];
   const BasicProfile = () => {
