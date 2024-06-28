@@ -9,26 +9,40 @@ const MainProfile = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
+  height: 560px;
 `;
 
 const ProfileMainImg = styled.img`
   width: 410px;
-  height: 540px;
-  padding: 0 10px 10px 10px;
+  height: 100%;
 `;
 
 //BasicProfile
 
-const BasicProfileContainer = styled.div``;
+const BasicProfileContainer = styled.div`
+  border: 1px solid white;
+  width: 420px;
+  height: 100%;
+  margin-left: 10px;
+`;
 
 const BasicProfileItem = styled.div`
   display: flex;
-  justify-content: center;2584
+  justify-content: center;
+  align-items: center;
+  height: 80px;
 `;
 
-const BasicProfileQuestion = styled.div``;
+const BasicProfileQuestion = styled.div`
+  width: 30%;
+`;
 
-const BasicProfileAnswer = styled.div``;
+const BasicProfileAnswer = styled.div`
+  width: 70%;
+  text-align: start;
+  white-space: pre-line; // 줄바꿈 실행
+`;
 
 //RenderProfile
 const ProfileListContainer = styled.div`
