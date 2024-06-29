@@ -1,0 +1,52 @@
+import React from "react";
+import {
+  BasicProfileAnswer,
+  BasicProfileContainer,
+  BasicProfileItem,
+  BasicProfileQuestion,
+} from "../styles/profile_styled";
+
+const BasicProfile = () => {
+  const BasicProfileContent = [
+    {
+      question: "이름",
+      answer: "이규상",
+    },
+    {
+      question: "출생",
+      answer: "1998년 3월 30일",
+    },
+    {
+      question: "본관",
+      answer: "전주 이씨",
+    },
+    {
+      question: "학력",
+      answer:
+        "덕벌초등학교 \n" +
+        "주성중학교 \n " +
+        "봉명고등학교 \n" +
+        "대전대학교 정보통신.전자공학과",
+    },
+    {
+      question: "MBTI",
+      answer: "ESTP",
+    },
+    {
+      question: "병역",
+      answer: "30사단 포병여단 311포병대대 \n 1포대 조종수 만기 전역",
+    },
+  ];
+  return (
+    <BasicProfileContainer>
+      {BasicProfileContent.map((mainprofile) => (
+        <BasicProfileItem>
+          <BasicProfileQuestion>{mainprofile.question}</BasicProfileQuestion>
+          <BasicProfileAnswer>{mainprofile.answer}</BasicProfileAnswer>
+        </BasicProfileItem>
+      ))}
+    </BasicProfileContainer>
+  );
+};
+
+export default BasicProfile;
