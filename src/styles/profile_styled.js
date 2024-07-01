@@ -32,19 +32,22 @@ const BasicProfileItem = styled.div`
   justify-content: center;
   align-items: center;
   height: 80px;
+  border: 1px solid purple;
 `;
 
 const BasicProfileQuestion = styled.div`
   width: 30%;
+  border: 1px solid blue;
 `;
 
 const BasicProfileAnswer = styled.div`
   width: 70%;
   text-align: start;
   white-space: pre-line; // 줄바꿈 실행
+  border: 1px solid red;
 `;
 
-//RenderProfile
+//ProfileListArea
 const ProfileListContainer = styled.div`
   display: flex;
   justify-content: center;
