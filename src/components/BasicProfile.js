@@ -21,6 +21,10 @@ const BasicProfile = () => {
       answer: "전주 이씨",
     },
     {
+      question: "신체",
+      answer: "175cm, B형, 270mm",
+    },
+    {
       question: "학력",
       answer:
         "덕벌초등학교 \n" +
