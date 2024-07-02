@@ -10,11 +10,11 @@ const MainProfile = styled.div`
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
-  height: 560px;
+  height: 600px;
 `;
 
 const ProfileMainImg = styled.img`
-  width: 410px;
+  width: 430px;
   height: 100%;
 `;
 

@@ -23,4 +23,13 @@ const HomeIntro = styled.div``;
 
 const HomeIntroText = styled.p``;
 
-export { HomeContainer, HomeInfo, MainImg, HomeIntro, HomeIntroText };
+const HomeIntroText2 = styled.p``;
+
+export {
+  HomeContainer,
+  HomeInfo,
+  MainImg,
+  HomeIntro,
+  HomeIntroText,
+  HomeIntroText2,
+};
