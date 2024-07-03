@@ -5,7 +5,15 @@ const ProfileContainer = styled.div`
   text-align: center;
 `;
 
-const MainProfile = styled.div`
+//BasicProfile
+
+const BasicProfileContainer = styled.div``;
+
+const BasicProfileTopic = styled.h2`
+  border: 1px solid red;
+`;
+
+const BasicProfileMain = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,14 +21,12 @@ const MainProfile = styled.div`
   height: 600px;
 `;
 
-const ProfileMainImg = styled.img`
+const BasicProfileImg = styled.img`
   width: 430px;
   height: 100%;
 `;
 
-//BasicProfile
-
-const BasicProfileContainer = styled.div`
+const BasicProfileContentContainer = styled.div`
   border: 1px solid white;
   width: 420px;
   height: 100%;
@@ -48,7 +54,10 @@ const BasicProfileAnswer = styled.div`
 `;
 
 //ProfileListArea
-const ProfileListContainer = styled.div`
+
+const ProfileListContainer = styled.div``;
+const ProfileListTopic = styled.h2``;
+const ProfileContentContainer = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
@@ -87,13 +96,17 @@ const ProfileListDesc = styled.div`
 
 export {
   ProfileContainer,
-  MainProfile,
-  ProfileMainImg,
   BasicProfileContainer,
+  BasicProfileTopic,
+  BasicProfileMain,
+  BasicProfileImg,
+  BasicProfileContentContainer,
   BasicProfileItem,
   BasicProfileQuestion,
   BasicProfileAnswer,
   ProfileListContainer,
+  ProfileListTopic,
+  ProfileContentContainer,
   ProfileListItem,
   ProfileListTitle,
   ProfileListDesc,
