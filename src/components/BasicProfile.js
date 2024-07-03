@@ -1,9 +1,13 @@
 import React from "react";
 import {
-  BasicProfileAnswer,
   BasicProfileContainer,
+  BasicProfileTopic,
+  BasicProfileMain,
+  BasicProfileImg,
+  BasicProfileContentContainer,
   BasicProfileItem,
   BasicProfileQuestion,
+  BasicProfileAnswer,
 } from "../styles/profile_styled";
 
 const BasicProfile = () => {
@@ -42,12 +46,20 @@ const BasicProfile = () => {
   ];
   return (
     <BasicProfileContainer>
-      {BasicProfileContent.map((mainprofile) => (
-        <BasicProfileItem>
-          <BasicProfileQuestion>{mainprofile.question}</BasicProfileQuestion>
-          <BasicProfileAnswer>{mainprofile.answer}</BasicProfileAnswer>
-        </BasicProfileItem>
-      ))}
+      <BasicProfileTopic>기본 프로필</BasicProfileTopic>
+      <BasicProfileMain>
+        <BasicProfileImg src="/images/Main.jpg" alt="증명사진" />
+        <BasicProfileContentContainer>
+          {BasicProfileContent.map((mainprofile) => (
+            <BasicProfileItem>
+              <BasicProfileQuestion>
+                {mainprofile.question}
+              </BasicProfileQuestion>
+              <BasicProfileAnswer>{mainprofile.answer}</BasicProfileAnswer>
+            </BasicProfileItem>
+          ))}
+        </BasicProfileContentContainer>
+      </BasicProfileMain>
     </BasicProfileContainer>
   );
 };
