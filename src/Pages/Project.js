@@ -2,14 +2,26 @@ import React from "react";
 import ProjectSkill from "../components/ProjectSkill";
 import ProjectList from "../components/ProjectList";
 import { ProjectContainer } from "../styles/project_styled";
+import { SectionsContainer, Section } from "react-fullpage";
 
 const Project = () => {
+  const options = {
+    anchors: ["section1", "section2"],
+  };
   return (
     <ProjectContainer>
-      <ProjectSkill />
-      <ProjectList />
+      <SectionsContainer {...options}>
+        <Section>
+          <ProjectSkill />
+        </Section>
+        <Section>
+          <ProjectList />
+        </Section>
+      </SectionsContainer>
     </ProjectContainer>
   );
 };
 
 export default Project;
+
+//풀페이지 찾아보기
