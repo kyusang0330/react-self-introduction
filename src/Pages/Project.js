@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectSkill from "../components/ProjectSkill";
-import ProjectList from "../components/ProjectList";
+import ProjectSkill from "../components/projectcomponent/ProjectSkill";
+import ProjectList from "../components/projectcomponent/ProjectList";
 import { ProjectContainer } from "../styles/project_styled";
 import { SectionsContainer, Section } from "react-fullpage";
 
