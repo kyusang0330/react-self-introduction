@@ -3,7 +3,7 @@ import {
   ProjectListContainer,
   ProjectListItem,
   ProjectListTitle,
-} from "../styles/project_styled";
+} from "../../styles/project_styled";
 const ProjectList = () => {
   const ProjectListContent = [
     {

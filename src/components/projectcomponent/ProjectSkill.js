@@ -5,7 +5,7 @@ import {
   ProjectSkillItem,
   ProjectSkillImg,
   ProjectSkillTitle,
-} from "../styles/project_styled";
+} from "../../styles/project_styled";
 const ProjectSkill = () => {
   const ProjectSkillContent = [
     {
