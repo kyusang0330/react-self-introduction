@@ -6,7 +6,7 @@ const FooterContainer = styled.div`
   display: flex;
   align-items: center;
   text-align: center;
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
   left: 50%;
@@ -25,9 +25,7 @@ const FooterInfo = styled.div`
 
 const FooterMyName = styled.p``;
 
-const FooterNumber = styled.p`
-  font-size: 10px;
-`;
+const FooterNumber = styled.p``;
 
 const FooterEmail = styled.p``;
 
