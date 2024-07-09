@@ -1,7 +1,7 @@
 import Grid from "../components/Grid";
 import { ProfileContainer } from "../styles/profile_styled";
-import BasicProfile from "../components/BasicProfile";
-import ProfileListArea from "../components/ProfileListArea";
+import BasicProfile from "../components/profilecomponent/BasicProfile";
+import ProfileListArea from "../components/profilecomponent/ProfileListArea";
 
 function Profile() {
   return (
