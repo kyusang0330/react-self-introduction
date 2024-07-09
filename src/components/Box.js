@@ -8,16 +8,16 @@ import {
 } from "../styles/box_styled";
 
 const Box = () => {
-  /* const [showAnimation, setShowAnimation] = useState(true);
+  const [showAnimation, setShowAnimation] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAnimation(false);
-    }, 3000);
+    }, 4000);
 
     return () => clearTimeout(timer);
   });
-*/
+
   const boxVariants = {
     out: { y: 600 },
     in: {
@@ -36,20 +36,14 @@ const Box = () => {
   };
   return (
     <BoxContainer>
-      <BoxMain variants={boxVariants} initial="out" animate="in">
-        <TestText variants={iconVariants}>Frond-End Developer</TestText>
-        <TestText2 variants={iconVariants}>Lee Kyu Sang</TestText2>
-      </BoxMain>
+      {showAnimation && (
+        <BoxMain variants={boxVariants} initial="out" animate="in">
+          <TestText variants={iconVariants}>Frond-End Developer</TestText>
+          <TestText2 variants={iconVariants}>Lee Kyu Sang</TestText2>
+        </BoxMain>
+      )}
     </BoxContainer>
   );
 };
-
-//     {showAnimation && (
-//         <BoxMain variants={boxVariants} initial="out" animate="in">
-//           <TestText variants={iconVariants}>Frond end</TestText>
-//           <TestText2 variants={iconVariants}>Developer</TestText2>
-//           <TestText3 variants={iconVariants}>Lee Kyu Sang</TestText3>
-//         </BoxMain>
-//       )}
 
 export default Box;
