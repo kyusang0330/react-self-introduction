@@ -8,7 +8,7 @@ import {
   BasicProfileItem,
   BasicProfileQuestion,
   BasicProfileAnswer,
-} from "../styles/profile_styled";
+} from "../../styles/profile_styled";
 
 const BasicProfile = () => {
   const BasicProfileContent = [
