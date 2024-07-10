@@ -9,9 +9,7 @@ const ProfileContainer = styled.div`
 
 const BasicProfileContainer = styled.div``;
 
-const BasicProfileTopic = styled.h2`
-  border: 1px solid red;
-`;
+const BasicProfileTopic = styled.h2``;
 
 const BasicProfileMain = styled.div`
   display: flex;
@@ -38,34 +36,39 @@ const BasicProfileItem = styled.div`
   justify-content: center;
   align-items: center;
   height: 80px;
-  border: 1px solid purple;
 `;
 
 const BasicProfileQuestion = styled.div`
   width: 30%;
-  border: 1px solid blue;
 `;
 
 const BasicProfileAnswer = styled.div`
   width: 70%;
   text-align: start;
   white-space: pre-line; // 줄바꿈 실행
-  border: 1px solid red;
 `;
 
 //ProfileListArea
 
-const ProfileListContainer = styled.div``;
+const ProfileListContainer = styled.div`
+  overflow-x: scroll;
+  ::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+`;
 const ProfileListTopic = styled.h2``;
 const ProfileContentContainer = styled.div`
   display: flex;
   justify-content: center;
-  height: 800px;
-  border: 1px solid black;
+  height: 900px;
+  width: 150%;
+  border: 1px solid white;
 `;
 
 const ProfileListItem = styled.div`
   text-align: start;
+  width: 25%;
 `;
 
 const ProfileListYear = styled.div`
