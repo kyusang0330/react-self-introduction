@@ -9,22 +9,25 @@ const ProjectContainer = styled.div`
 
 //ProjectSkill
 const ProjectSkillContainer = styled.div`
-  gap: 30px;
-`;
-const ProjectSkillItemContainer = styled.div`
   display: flex;
   justify-content: center;
-  gap: 30px;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+`;
+const ProjectSkillItemContainer = styled.div`
+  display: block;
+  gap: 40px;
 `;
 
-const ProjectSkillItem = styled.div``;
-
-const ProjectSkillImg = styled.img`
-  width: 100px;
-  height: 100px;
+const ProjectSkillItem = styled.div`
+  display: flex;
+  margin-top: 30px;
 `;
 
-const ProjectSkillTitle = styled.div``;
+const ProjectSkillTitle = styled.div`
+  font-size: 35px;
+`;
 
 //ProjectList
 
@@ -48,7 +51,6 @@ export {
   ProjectSkillContainer,
   ProjectSkillItemContainer,
   ProjectSkillItem,
-  ProjectSkillImg,
   ProjectSkillTitle,
   ProjectListContainer,
   ProjectListItem,
