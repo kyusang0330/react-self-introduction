@@ -21,12 +21,14 @@ const ProjectList = () => {
   ];
   return (
     <ProjectListContainer>
-      <h2>Project</h2>
-      <ProjectListItem>
-        {ProjectListContent.map((git) => (
-          <ProjectListTitle>{git.title}</ProjectListTitle>
-        ))}
-      </ProjectListItem>
+      <div>
+        <h2>Project</h2>
+        <ProjectListItem>
+          {ProjectListContent.map((git) => (
+            <ProjectListTitle>{git.title}</ProjectListTitle>
+          ))}
+        </ProjectListItem>
+      </div>
     </ProjectListContainer>
   );
 };
