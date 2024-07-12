@@ -2,6 +2,8 @@ import React from "react";
 import {
   ProjectListContainer,
   ProjectListItem,
+  ProjectListTopic,
+  ProjectListMap,
   ProjectListTitle,
 } from "../../styles/project_styled";
 const ProjectList = () => {
@@ -21,14 +23,14 @@ const ProjectList = () => {
   ];
   return (
     <ProjectListContainer>
-      <div>
-        <h2>Project</h2>
-        <ProjectListItem>
+      <ProjectListItem>
+        <ProjectListTopic>Project</ProjectListTopic>
+        <ProjectListMap>
           {ProjectListContent.map((git) => (
             <ProjectListTitle>{git.title}</ProjectListTitle>
           ))}
-        </ProjectListItem>
-      </div>
+        </ProjectListMap>
+      </ProjectListItem>
     </ProjectListContainer>
   );
 };

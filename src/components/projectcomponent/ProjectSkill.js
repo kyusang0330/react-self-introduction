@@ -1,8 +1,9 @@
 import React from "react";
 import {
   ProjectSkillContainer,
-  ProjectSkillItemContainer,
   ProjectSkillItem,
+  ProjectSkillTopic,
+  ProjectSkillMap,
   ProjectSkillTitle,
 } from "../../styles/project_styled";
 const ProjectSkill = () => {
@@ -22,14 +23,14 @@ const ProjectSkill = () => {
   ];
   return (
     <ProjectSkillContainer>
-      <ProjectSkillItemContainer>
-        <h2>Skill</h2>
-        <ProjectSkillItem>
+      <ProjectSkillItem>
+        <ProjectSkillTopic>Skill</ProjectSkillTopic>
+        <ProjectSkillMap>
           {ProjectSkillContent.map((skill) => (
             <ProjectSkillTitle>{skill.title}</ProjectSkillTitle>
           ))}
-        </ProjectSkillItem>
-      </ProjectSkillItemContainer>
+        </ProjectSkillMap>
+      </ProjectSkillItem>
     </ProjectSkillContainer>
   );
 };
