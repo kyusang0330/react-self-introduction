@@ -15,13 +15,12 @@ const ProjectSkillContainer = styled.div`
   width: 100%;
   height: 650px;
 `;
-const ProjectSkillItemContainer = styled.div`
-  display: block;
-  gap: 40px;
-`;
+const ProjectSkillItem = styled.div``;
+const ProjectSkillTopic = styled.h2``;
 
-const ProjectSkillItem = styled.div`
+const ProjectSkillMap = styled.div`
   display: flex;
+  justify-content: center;
   margin-top: 30px;
 `;
 
@@ -31,28 +30,37 @@ const ProjectSkillTitle = styled.div`
 
 //ProjectList
 
-const ProjectListContainer = styled.div``;
+const ProjectListContainer = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+`;
 
-const ProjectListItem = styled.div`
+const ProjectListItem = styled.div``;
+const ProjectListTopic = styled.h2``;
+const ProjectListMap = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 `;
 
 const ProjectListTitle = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
+  width: 250px;
   height: 80px;
+  font-size: 35px;
 `;
 
 export {
   ProjectContainer,
   ProjectSkillContainer,
-  ProjectSkillItemContainer,
   ProjectSkillItem,
+  ProjectSkillTopic,
+  ProjectSkillMap,
   ProjectSkillTitle,
   ProjectListContainer,
   ProjectListItem,
+  ProjectListTopic,
+  ProjectListMap,
   ProjectListTitle,
 };
