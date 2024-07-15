@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useCallback, useRef, useState} from "react";
 import {
   ProfileListContainer,
   ProfileListTopic,
@@ -64,10 +64,67 @@ const ProfileListArea = () => {
         "3월에 정식 임용이었는데 2월 중순에 풋살을 하다가 발목 인대 파열을 당했습니다. 수술을 할 뻔했지만, 수술을 면하고 한 달 정도 깁스를 하고, 3달 정도 발목 보호대를 하고 다녔습니다.",
     },
   ];
+
+  const containerRef = useRef(null);
+
+  const[isDragging, setIsDragging] = useState(false);
+
+  const [startX, setStartX] = useState(0);
+
+  const [totalX, setTotalX] = useState(0);
+
+  const preventUnexpectedEffects = useCallback((e: MouseEvent) =>{
+    e.preventDefault()
+    e.stopPropagation()
+  },[]);
+  const onDragStart = (e: MouseEvent) => {
+    preventUnexpectedEffects(e)
+    setIsDragging(true);
+    const x = e.clientX;
+    setStartX(x);
+    if(containerRef.current && 'scrollLeft' in containerRef.current){
+      setTotalX(x + containerRef.current.scrollLeft);
+    }
+  };
+  const onDragMove= (e: MouseEvent) => {
+    preventUnexpectedEffects(e)
+    if(!isDragging) return;
+
+    const scrollLeft = totalX - e.clientX;
+
+    if(containerRef.current && 'scrollLeft' in containerRef.current) {
+      containerRef.current.scrollLeft = scrollLeft;
+    }
+  };
+  const onDragEnd = (e: MouseEvent) => {
+    if(!isDragging) return;
+    if (!containerRef.current) return;
+
+    setIsDragging(false);
+
+    const endX = e.clientX;
+    const childNodes = [...(containerRef.current?.childNodes ||[])];
+    const dragDiff = Math.abs(startX - endX)
+    if (dragDiff > 10) {
+      childNodes.forEach((child) => {
+        child.addEventListener('click', preventUnexpectedEffects);
+      });
+    } else {
+      childNodes.forEach((child) => {
+        child.removeEventListener('click', preventUnexpectedEffects);
+      });
+    }
+  };
   return (
     <ProfileListContainer>
       <ProfileListTopic>대학 생활</ProfileListTopic>
-      <ProfileContentContainer>
+      <ProfileContentContainer
+          ref={containerRef}
+          onMouseDown={onDragStart}
+          onMouseMove={onDragMove}
+          onMouseUp={onDragEnd}
+          onMouseLeave={onDragEnd}
+      >
         {ProfileContent.map((profilelist) => (
           <ProfileListItem>
             <ProfileListYear>{profilelist.year}</ProfileListYear>
