@@ -50,47 +50,44 @@ const BasicProfileAnswer = styled.div`
 
 //ProfileListArea
 
-const ProfileListContainer = styled.div`
-  overflow-x: scroll;
-  ::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
-  }
-`;
+const ProfileListContainer = styled.div``;
 const ProfileListTopic = styled.h2``;
 const ProfileContentContainer = styled.div`
   display: flex;
-  justify-content: center;
-  height: 900px;
-  width: 150%;
+  overflow-x: scroll;
+  gap: 10px;
   border: 1px solid white;
 `;
 
 const ProfileListItem = styled.div`
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
   text-align: start;
-  width: 25%;
+  width: 1000px;
+  border: 1px solid #20c997;
 `;
 
 const ProfileListYear = styled.div`
   display: flex;
   height: 100px;
   align-items: end;
-  border: 1px solid red;
 `;
 
 const ProfileListImg = styled.img`
-  width: 230px;
+  width: 250px;
   height: 290px;
+  border: 1px solid red;
 `;
 
 const ProfileListTitle = styled.div`
   width: 250px;
   height: 50px;
   font-size: 13px;
-  border: 1px solid blue;
 `;
 
 const ProfileListDesc = styled.div`
+  width: 350px;
   height: 350px;
   font-size: 13px;
   border: 1px solid blueviolet;
