@@ -55,6 +55,9 @@ const ProfileListTopic = styled.h2``;
 const ProfileContentContainer = styled.div`
   display: flex;
   overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
   gap: 10px;
   border: 1px solid white;
 `;
@@ -63,8 +66,6 @@ const ProfileListItem = styled.div`
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  text-align: start;
-  width: 1000px;
   border: 1px solid #20c997;
 `;
 
@@ -72,18 +73,20 @@ const ProfileListYear = styled.div`
   display: flex;
   height: 100px;
   align-items: end;
+  font-weight: bolder;
+  font-size: 30px;
 `;
 
 const ProfileListImg = styled.img`
   width: 250px;
   height: 290px;
-  border: 1px solid red;
 `;
 
 const ProfileListTitle = styled.div`
   width: 250px;
   height: 50px;
   font-size: 13px;
+  text-align: center;
 `;
 
 const ProfileListDesc = styled.div`

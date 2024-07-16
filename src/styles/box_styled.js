@@ -13,7 +13,7 @@ const BoxMain = styled(motion.div)`
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(135deg, #e09, #d0e);
+  gap: 60px;
 `;
 /*
 const TestBox = styled(motion.div)`
@@ -26,11 +26,11 @@ const TestBox = styled(motion.div)`
 `;
 */
 const TestText = styled(motion.div)`
-  font-size: 30px;
+  font-size: 50px;
 `;
 
 const TestText2 = styled(motion.div)`
-  font-size: 30px;
+  font-size: 50px;
 `;
 
 export { BoxContainer, BoxMain, TestText, TestText2 };
