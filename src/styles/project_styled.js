@@ -17,7 +17,6 @@ const ProjectSkillContainer = styled.div`
 `;
 const ProjectSkillItem = styled.div``;
 const ProjectSkillTopic = styled.h2``;
-
 const ProjectSkillMap = styled.div`
   display: flex;
   justify-content: center;

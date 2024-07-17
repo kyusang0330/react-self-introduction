@@ -12,7 +12,7 @@ const BoxMain = styled(motion.div)`
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  width: 95vw;
   gap: 60px;
 `;
 /*

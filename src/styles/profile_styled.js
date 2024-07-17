@@ -66,20 +66,24 @@ const ProfileListItem = styled.div`
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #20c997;
+  border: 1px solid white;
 `;
 
 const ProfileListYear = styled.div`
   display: flex;
+  width: 100%;
   height: 100px;
+  justify-content: center;
   align-items: end;
   font-weight: bolder;
   font-size: 30px;
+  border-bottom: 1px solid white;
 `;
 
 const ProfileListImg = styled.img`
   width: 250px;
   height: 290px;
+  margin: 10px;
 `;
 
 const ProfileListTitle = styled.div`
@@ -93,7 +97,7 @@ const ProfileListDesc = styled.div`
   width: 350px;
   height: 350px;
   font-size: 13px;
-  border: 1px solid blueviolet;
+  border-top: 1px solid white;
 `;
 
 export {
