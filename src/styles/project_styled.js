@@ -20,10 +20,12 @@ const ProjectSkillTopic = styled.h2``;
 const ProjectSkillMap = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 100px;
 `;
 
 const ProjectSkillTitle = styled.div`
+  width: 200px;
+  height: 80px;
   font-size: 35px;
 `;
 
@@ -41,7 +43,7 @@ const ProjectListTopic = styled.h2``;
 const ProjectListMap = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 100px;
 `;
 
 const ProjectListTitle = styled.div`
