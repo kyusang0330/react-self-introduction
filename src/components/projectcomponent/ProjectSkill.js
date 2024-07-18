@@ -9,13 +9,13 @@ import {
 const ProjectSkill = () => {
   const ProjectSkillContent = [
     {
-      title: "HTML5 /",
+      title: "HTML5",
     },
     {
-      title: "CSS3 /",
+      title: "CSS3",
     },
     {
-      title: "Java Script /",
+      title: "Java Script",
     },
     {
       title: "React",
