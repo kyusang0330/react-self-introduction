@@ -26,11 +26,14 @@ const HobbyListImg = styled.img`
 
 const HobbyListContent = styled.div`
   width: 100%;
+  height: 100%;
 `;
 
 const HobbyListTitle = styled.div`
   border: 1px solid red;
   text-align: start;
+  font-weight: bolder;
+  font-size: 30px;
 `;
 
 const HobbyListDesc = styled.div`
