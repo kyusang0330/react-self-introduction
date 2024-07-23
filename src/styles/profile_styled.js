@@ -40,6 +40,8 @@ const BasicProfileItem = styled.div`
 
 const BasicProfileQuestion = styled.div`
   width: 30%;
+  font-weight: bolder;
+  font-size: 17px;
 `;
 
 const BasicProfileAnswer = styled.div`
