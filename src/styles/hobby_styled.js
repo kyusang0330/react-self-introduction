@@ -9,24 +9,30 @@ const HobbyListContainer = styled.div``;
 
 const HobbyListItem = styled.div`
   display: flex;
+  height: 250px;
   border: 1px solid white;
   box-sizing: border-box;
   border-radius: 10px;
   text-align: center;
   align-items: center;
   gap: 20px;
+  margin-bottom: 20px;
 `;
 
 const HobbyListImg = styled.img`
   width: 40%;
-  height: 250px;
+  height: 100%;
   border-radius: 10px;
   border-right: 2px solid white;
 `;
 
 const HobbyListContent = styled.div`
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   height: 100%;
+  border: 2px solid purple;
 `;
 
 const HobbyListTitle = styled.div`
