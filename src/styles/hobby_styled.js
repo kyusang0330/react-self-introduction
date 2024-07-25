@@ -32,18 +32,17 @@ const HobbyListContent = styled.div`
   justify-content: center;
   width: 100%;
   height: 100%;
-  border: 2px solid purple;
+  gap: 10px;
 `;
 
 const HobbyListTitle = styled.div`
-  border: 1px solid red;
   text-align: start;
   font-weight: bolder;
   font-size: 30px;
 `;
 
 const HobbyListDesc = styled.div`
-  border: 1px solid blue;
+  text-align: start;
 `;
 
 export {
