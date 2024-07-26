@@ -16,7 +16,9 @@ const ProjectSkillContainer = styled.div`
   height: 650px;
 `;
 const ProjectSkillItem = styled.div``;
-const ProjectSkillTopic = styled.h2``;
+const ProjectSkillTopic = styled.h2`
+  font-weight: bolder;
+`;
 const ProjectSkillMap = styled.div`
   display: flex;
   justify-content: center;
@@ -39,7 +41,9 @@ const ProjectListContainer = styled.div`
 `;
 
 const ProjectListItem = styled.div``;
-const ProjectListTopic = styled.h2``;
+const ProjectListTopic = styled.h2`
+  font-weight: bolder;
+`;
 const ProjectListMap = styled.div`
   display: flex;
   justify-content: center;
