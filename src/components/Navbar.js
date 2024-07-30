@@ -8,7 +8,7 @@ const Navbar = () => {
       data-bs-theme="dark"
     >
       <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/react-self-introduction">
+        <NavLink className="navbar-brand" to="/react-self-introduction/">
           LKS
         </NavLink>
         <button
@@ -31,7 +31,7 @@ const Navbar = () => {
               <NavLink
                 className="nav-link"
                 aria-current="page"
-                to="/react-self-introduction"
+                to="/react-self-introduction/"
               >
                 Home
               </NavLink>
