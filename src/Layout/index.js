@@ -39,7 +39,7 @@ const Layout = () => {
       <Navbar />
       <h1>{title}</h1>
       <Routes>
-        <Route path="//react-self-introduction" element={<Home />} />
+        <Route path="/react-self-introduction" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/hobby" element={<Hobby />} />
         <Route path="/project" element={<Project />} />
