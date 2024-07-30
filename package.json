@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://kyusang0330.github.io/react-self-introduction",
+  "homepage": "https://kyusang0330.github.io/react-self-introduction/",
   "eslintConfig": {
     "extends": [
       "react-app",
