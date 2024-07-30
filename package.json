@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^11.2.6",
     "fullpage": "^1.5.1",
+    "gh-pages": "^6.1.1",
     "prettier": "^3.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.2.0",
@@ -22,8 +23,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://kyusang0330.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",
