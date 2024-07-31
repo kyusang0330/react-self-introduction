@@ -14,7 +14,7 @@ const ProfileListArea = () => {
   const ProfileContent = [
     {
       year: "2017",
-      img: "../images/profileimg/2017.jpg",
+      img: "./../images/2017.jpg",
       title: "대전대학교 전자.정보통신공학과 입학",
       desc:
         "청주 봉명 고등학교 졸업 후, 설레는 마음으로 대전대학교 전자. 정보통신공학과에 입학했습니다.\n" +
@@ -22,7 +22,7 @@ const ProfileListArea = () => {
     },
     {
       year: "2019",
-      img: "../images/profileimg/2019.jpg",
+      img: "./../images/2019.jpg",
       title: "육군병장만기전역",
       desc:
         "주특기 K-55a1 조종수. 606일간의 포병 군 생활을 잘 마무리하고 전역했습니다.\n" +
@@ -30,7 +30,7 @@ const ProfileListArea = () => {
     },
     {
       year: "2020",
-      img: "../images/profileimg/2020.jpg",
+      img: "../images/2020.jpg",
       title: "대전대학교 전자.정보통신공학과 학생회 교육부장",
       desc:
         "군 전역하기 직전 학교 선배에게 복학하자마자 학과 학생회 임원 제안을 받았습니다. \n" +
@@ -38,7 +38,7 @@ const ProfileListArea = () => {
     },
     {
       year: "2021",
-      img: "../images/profileimg/2021.jpg",
+      img: "../images/2021.jpg",
       title: "대전대학교 정보통신.전자공학과 학생회 학생회장",
       desc:
         "1년 동안의 학생회 활동이 끝나갈 때쯤, 학생회장 선배가 자신의 차기 학생회장 제안을 하였습니다.\n" +
@@ -47,7 +47,7 @@ const ProfileListArea = () => {
     },
     {
       year: "2022",
-      img: "../images/profileimg/2022.jpg",
+      img: "../images/2022.jpg",
       title: "대전대학교 공과대학 사무부장",
       desc:
         "학과 학생회장 임기가 끝나갈 무렵 토목공학과 학생회장 친구가 자신이 내년 공과대학 학생회장 선거에 출마할 건데 같이 공과대학 학생회를 하자고 제안하였습니다.\n" +
@@ -56,7 +56,7 @@ const ProfileListArea = () => {
     },
     {
       year: "2023",
-      img: "../images/profileimg/2023.jpg",
+      img: "../images/2023.jpg",
       title: "대전대학교 정보통신공학과 교육조교",
       desc:
         "졸업 전부터 꾸준히 조교 선배가 조교를 하라는 제안을 하였고, 저는 꾸준히 거절을 하였습니다. 왜냐하면 졸업하고 react 공부를 더 열심히 해보고 싶었고, 실무에 들어가 진짜 사회생활을 하여 저의 개발 능력을 향상시키고 싶었습니다.\n" +
