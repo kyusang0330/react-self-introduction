@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <HomeContainer>
       <HomeInfo>
-        <MainImg src="/images/Main.jpg" alt="증명사진" />
+        <MainImg src="./images/Main.jpg" alt="Main" />
         <HomeIntro>
           <HomeIntroText>
             안녕하세요. 프론트엔드 개발자 이규상입니다.
