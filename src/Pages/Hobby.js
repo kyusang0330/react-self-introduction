@@ -12,7 +12,7 @@ import {
 const Hobby = () => {
   const hobbyList = [
     {
-      img: "../images/sports.jpg",
+      img: "././images/sports.jpg",
       title: "Sports",
       desc:
         "고등학생 때부터 주말마다 풋살을 하였습니다. " +
