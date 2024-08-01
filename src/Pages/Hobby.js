@@ -12,7 +12,7 @@ import {
 const Hobby = () => {
   const hobbyList = [
     {
-      img: "././images/sports.jpg",
+      img: "/../images/sports.jpg",
       title: "Sports",
       desc:
         "고등학생 때부터 주말마다 풋살을 하였습니다. " +
@@ -21,7 +21,7 @@ const Hobby = () => {
       name: "sports",
     },
     {
-      img: "../images/health.jpg",
+      img: "./../images/health.jpg",
       title: "Health Training",
       desc:
         "고등학교 때 다이어트를 위해 헬스장에 처음 입문하여 방학 때마다 헬스장을 다녔습니다. " +
