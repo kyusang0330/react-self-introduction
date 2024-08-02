@@ -14,7 +14,7 @@ const ProfileListArea = () => {
   const ProfileContent = [
     {
       year: "2017",
-      img: "./../images/2017.jpg",
+      img: "../images/2017.jpg",
       title: "대전대학교 전자.정보통신공학과 입학",
       desc:
         "청주 봉명 고등학교 졸업 후, 설레는 마음으로 대전대학교 전자. 정보통신공학과에 입학했습니다.\n" +
@@ -22,7 +22,7 @@ const ProfileListArea = () => {
     },
     {
       year: "2019",
-      img: "./../images/2019.jpg",
+      img: "../images/2019.jpg",
       title: "육군병장만기전역",
       desc:
         "주특기 K-55a1 조종수. 606일간의 포병 군 생활을 잘 마무리하고 전역했습니다.\n" +
