@@ -1,4 +1,5 @@
 import React from "react";
+import Main from "../../assets/images/Main.jpg";
 import {
   BasicProfileContainer,
   BasicProfileTopic,
@@ -48,7 +49,7 @@ const BasicProfile = () => {
     <BasicProfileContainer>
       <BasicProfileTopic>기본 프로필</BasicProfileTopic>
       <BasicProfileMain>
-        <BasicProfileImg src="../images/Main.jpg" alt="Main" />
+        <BasicProfileImg src={Main} alt="Main" />
         <BasicProfileContentContainer>
           {BasicProfileContent.map((mainprofile) => (
             <BasicProfileItem>
