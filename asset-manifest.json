@@ -1,15 +1,26 @@
 {
   "files": {
     "main.css": "/react-self-introduction/static/css/main.69e70250.css",
-    "main.js": "/react-self-introduction/static/js/main.ace25263.js",
+    "main.js": "/react-self-introduction/static/js/main.d2716981.js",
     "static/js/453.1c594394.chunk.js": "/react-self-introduction/static/js/453.1c594394.chunk.js",
+    "static/media/2022.jpg": "/react-self-introduction/static/media/2022.427f2b9d530aabbffbc3.jpg",
+    "static/media/2021.jpg": "/react-self-introduction/static/media/2021.8ddcd47364259d5a5e5a.jpg",
+    "static/media/2023.jpg": "/react-self-introduction/static/media/2023.d6fd698c25e035b77406.jpg",
+    "static/media/2020.jpg": "/react-self-introduction/static/media/2020.7e34cb20462c45810610.jpg",
+    "static/media/2019.jpg": "/react-self-introduction/static/media/2019.18e754d0f280f704aaca.jpg",
+    "static/media/2017.jpg": "/react-self-introduction/static/media/2017.38c4c4a21061d25b939f.jpg",
+    "static/media/Main.jpg": "/react-self-introduction/static/media/Main.e3b969649cb86008237d.jpg",
+    "static/media/health.jpg": "/react-self-introduction/static/media/health.b8753fa3b62201338df3.jpg",
+    "static/media/coffee.jpg": "/react-self-introduction/static/media/coffee.51e71238d2fafb40b012.jpg",
+    "static/media/sports.jpg": "/react-self-introduction/static/media/sports.7cb492e0260b5b93bfb2.jpg",
+    "static/media/music.jpg": "/react-self-introduction/static/media/music.75d0eeb72e5a4894ec57.jpg",
     "index.html": "/react-self-introduction/index.html",
     "main.69e70250.css.map": "/react-self-introduction/static/css/main.69e70250.css.map",
-    "main.ace25263.js.map": "/react-self-introduction/static/js/main.ace25263.js.map",
+    "main.d2716981.js.map": "/react-self-introduction/static/js/main.d2716981.js.map",
     "453.1c594394.chunk.js.map": "/react-self-introduction/static/js/453.1c594394.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69e70250.css",
-    "static/js/main.ace25263.js"
+    "static/js/main.d2716981.js"
   ]
 }
