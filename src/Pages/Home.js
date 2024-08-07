@@ -1,4 +1,5 @@
 import React from "react";
+import Main from "../assets/images/Main.jpg";
 import {
   HomeContainer,
   HomeInfo,
@@ -11,7 +12,7 @@ const Home = () => {
   return (
     <HomeContainer>
       <HomeInfo>
-        <MainImg src="./images/Main.jpg" alt="Main" />
+        <MainImg src={Main} alt="Main" />
         <HomeIntro>
           <HomeIntroText>
             안녕하세요. 프론트엔드 개발자 이규상입니다.
