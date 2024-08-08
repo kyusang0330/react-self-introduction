@@ -1,7 +1,6 @@
 {
   "files": {
-    "main.css": "/react-self-introduction/static/css/main.69e70250.css",
-    "main.js": "/react-self-introduction/static/js/main.d2716981.js",
+    "main.js": "/react-self-introduction/static/js/main.d5a07e8a.js",
     "static/js/453.1c594394.chunk.js": "/react-self-introduction/static/js/453.1c594394.chunk.js",
     "static/media/2022.jpg": "/react-self-introduction/static/media/2022.427f2b9d530aabbffbc3.jpg",
     "static/media/2021.jpg": "/react-self-introduction/static/media/2021.8ddcd47364259d5a5e5a.jpg",
@@ -15,12 +14,10 @@
     "static/media/sports.jpg": "/react-self-introduction/static/media/sports.7cb492e0260b5b93bfb2.jpg",
     "static/media/music.jpg": "/react-self-introduction/static/media/music.75d0eeb72e5a4894ec57.jpg",
     "index.html": "/react-self-introduction/index.html",
-    "main.69e70250.css.map": "/react-self-introduction/static/css/main.69e70250.css.map",
-    "main.d2716981.js.map": "/react-self-introduction/static/js/main.d2716981.js.map",
+    "main.d5a07e8a.js.map": "/react-self-introduction/static/js/main.d5a07e8a.js.map",
     "453.1c594394.chunk.js.map": "/react-self-introduction/static/js/453.1c594394.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69e70250.css",
-    "static/js/main.d2716981.js"
+    "static/js/main.d5a07e8a.js"
   ]
 }
