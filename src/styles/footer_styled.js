@@ -16,6 +16,7 @@ const FooterContainer = styled.div`
 const FooterLogo = styled.div`
   width: 10%;
   font-size: 30px;
+  font-weight: bolder;
 `;
 
 const FooterInfo = styled.div`
