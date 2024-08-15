@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const HomeContainer = styled.div`
-  margin-bottom: 130px;
+  margin-bottom: 150px;
 `;
 
 const HomeInfo = styled.div`
