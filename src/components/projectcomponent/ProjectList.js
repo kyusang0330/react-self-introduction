@@ -26,8 +26,8 @@ const ProjectList = () => {
       <ProjectListItem>
         <ProjectListTopic>Project</ProjectListTopic>
         <ProjectListMap>
-          {ProjectListContent.map((git) => (
-            <ProjectListTitle>{git.title}</ProjectListTitle>
+          {ProjectListContent.map((projectname) => (
+            <ProjectListTitle>{projectname.title}</ProjectListTitle>
           ))}
         </ProjectListMap>
       </ProjectListItem>
