@@ -100,6 +100,8 @@ const ProfileListDesc = styled.div`
   height: 350px;
   font-size: 13px;
   border-top: 1px solid white;
+  white-space: pre-line;
+  text-align: start;
 `;
 
 export {
